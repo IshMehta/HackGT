@@ -34,6 +34,14 @@ A user starts off by either choosing a video of any object from their gallery or
 
 This is a tough one. There were several hurdles for us to jump over. Our main aim was to keep the project open-source, modular and scalable with the use of the least number of external resources. For the sake of the development speed and time crunch, we utilised Firebase as our means of communicating to GCP. However, in an ideal world, we would like to leverage SSH to do so. SSH has several benifits, chief among which is modularity. Furthermore, our pipeline while completely setup, needs to be automated. Creating each step in out pipeline takes a lot of time and automating it would have been possible given more time.
 
+# Accomplishments that we're proud of
+
+We are extremely proud that we survived and created a somewhat working product! It’s extremely impressive that any shred of sanity remains in any of us after so many grueling hours of debugging nightmares! For actual project goals, we're quite happy that the mobile app works consistently. Furthermore, connecting a GCP compute engine to firebase turned out to be more annoying than expected, so getting the endpoint connection working for that was also really rewarding! In general, seeing that we were able to accomplish each individual step of our pipeline (although, not all steps occurring automatically yet) gives us a confidence boost in the progress we feel like we made.
+
+# What we learned
+
+None of us had any experience doing mobile development with flutter beforehand, so that was quite new to us! We also had very limited exposure with backend development in general, so figuring out how to setup and work with firebase was quite the experience as well! Surprisingly, we have a lot of computer vision experience, so figuring out how to get Nerfstudio up and running on a GCP compute engine wasn't very new to us. In general, I think we've come to appreciate how intuitive a user experience feels, since now we have a better idea that such intuitive experience isn't exactly the most intuitive/simplest to create by the developer
+
 # Further Improvements
 
 Alongside the SSH capablilities mentioned above, we would love to leverage native technologies available on phones, especially LIDARs on iPhones. However, our apps were developed in Flutter which cannot make use of such native technologies. Thus, a big imporvement would be to port the app over to Swift and make use of the ARkits to do so. This would greatly increase the accuracy of the model, at the same time reducing the computational time. Since the ARkit also has access to the IMU sensors onboard, we do not need to do computationally expensive tasks for estimating pose information. 
