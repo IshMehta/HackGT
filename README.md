@@ -5,6 +5,7 @@ Requirements to Use:
 - Dart
 
 How to use:
+
 Method 1
 - Clone the repository onto your device
 - Navigate to the repository path on terminal
