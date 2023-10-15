@@ -3,6 +3,7 @@ Requirements to Use:
 - Android Studio
 - Flutter
 - Dart
+- NeRF Studio on a dedicated GPU
 
 How to use:
 
