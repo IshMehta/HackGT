@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "458809642203",
+    "firebase_url": "https://hackgt-5b60a-default-rtdb.firebaseio.com",
+    "project_id": "hackgt-5b60a",
+    "storage_bucket": "hackgt-5b60a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:458809642203:android:29f4d57c3cd805053e10fe",
+        "android_client_info": {
+          "package_name": "com.example.hackgt"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBsqr_GLyuK90u-kh2AzCj0ooWCiIQleLY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
